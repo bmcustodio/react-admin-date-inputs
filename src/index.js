@@ -156,7 +156,7 @@ const Picker = ({
                     isRequired={isRequired}
                 />}
                 InputLabelProps={{
-                    shrink: true
+                    shrink: !!input.value
                 }}
                 variant={pickerVariant}
                 inputVariant={variant}
